@@ -412,6 +412,18 @@ img {
     column-gap: 5rem;
   }
 
+  .nav-list li:nth-child(2) {
+    grid-column: 1 / 2;
+  }
+  .nav-list li:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  .nav-list li:nth-child(5) {
+    grid-column: 3 / 4;
+    grid-row: 1;
+  }
+
   .social-list {
     justify-content: end;
   }
